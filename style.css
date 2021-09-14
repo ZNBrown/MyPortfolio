@@ -1,9 +1,12 @@
 body {
-    background: #b3fffe;
+    background: #DBFFFE;
     font-family: monospace;
 }
 h2{
     font-size: 160%;
+}
+details > p {
+    font-weight: bold;
 }
 .AboutMe {
 
