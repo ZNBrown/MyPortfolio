@@ -1,3 +1,10 @@
 body {
-    background: 173, 219, 179;
+    background: #b3fffe;
+    font-family: monospace;
+}
+h2{
+    font-size: 160%;
+}
+.AboutMe {
+
 }
