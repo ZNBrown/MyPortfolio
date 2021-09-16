@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <title>Zach Brown: Portfolio</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -21,23 +21,35 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact me!</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     <h1 class="h1">My Portfolio</h1>
+    <article>
+        <p class="fs-3">
+            Welcome! 
+            I hope you will find what you are looking for in me
+        </p>
+    </article>
     <h2 class="h2"> About me</h2>
     <article>
-        <p class="AboutMe">
+        <p class="fs-3">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
         Et, quaerat nobis explicabo cum mollitia rerum, quis aperiam 
         repudiandae sequi natus accusamus enim eaque temporibus dolorem, 
         cumque maiores! Aspernatur, dicta veniam!
         </p>
     </article>
-    <h2>Achievements:</h2>
+    <h2 class="h2">Achievements:</h2>
     <article>
         <ul>
             <li>
@@ -54,6 +66,18 @@
             </li>
         </ul>
     </article>
+    <h2 class="h2">Contact</h2>
+    <form>
+        <div class="mb-3 mx-3">
+          <label for="InputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="InputEmail1" placeholder="name@example.com" >        
+        </div>
+          <div class="mb-3 mx-3">
+            <label for="MessageContent" class="form-label">Your message:</label>
+            <textarea class="form-control" id="MessageContent" rows="3"></textarea>
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
 
     
 </body>
