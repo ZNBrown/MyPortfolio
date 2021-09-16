@@ -1,7 +1,5 @@
 body {
     background: #DBFFFE;
-    font-family: monospace;
-    text-align: left;
 }
 h1 {
     padding-top: 20px;
@@ -14,7 +12,4 @@ h2{
 }
 details > p {
     font-weight: bold;
-}
-.AboutMe {
-
 }
