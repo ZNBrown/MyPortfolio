@@ -1,27 +1,21 @@
 import React, { useState } from 'react'
 import './style.css'
+import Card from 'react-bootstrap/Card'
+import CardGroup from 'react-bootstrap/CardGroup'
+import Button from 'react-bootstrap/Button'
 
-export const Project = ({ album }) => {
-    const [showSong, setShowSong] = useState(false)
+export const Project = ({ item }) => {
 
-    const handleClick = () => {
-        return setShowSong(true)
-    }
     return (
-        <div onMouseEnter={handleClick} className={`album`} >
-            <h3>{album}</h3>
-            <em>showSong ? song : "See More ..."</em>
-        </div>
+        <Card style={{ width: '18rem' }}>
+        {/* <Card.Img variant="top" src={item.source} /> */}
+        <Card.Body>
+            <Card.Title>{item.title}</Card.Title>
+            <Card.Text>
+                {item.text}
+            </Card.Text>
+            <Button href={item.link}>Visit!</Button>
+        </Card.Body>
+        </Card>
     )
-    // return (
-    //     <>
-    //         <div
-    //         className={`album`}
-    //         >
-    //         <h3>{album.title}</h3>
-    //         <p>{album.description}</p>
-    //         <p>{album.tracklist}</p>
-    //         </div>
-    //     </>
-    // )
 }

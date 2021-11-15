@@ -1,6 +1,8 @@
 import React from "react";
 import { NavBar } from './components/layouts';
 import * as Pages from './pages';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import { Switch, Route } from 'react-router-dom';
 
